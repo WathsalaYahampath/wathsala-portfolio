@@ -5,6 +5,7 @@ export default function HomeComponent() {
   return (
     <div>
         
+        
 
         <Navbar/>
     </div>
