@@ -1,0 +1,8 @@
+/* .container-fluid{
+    background-color: rgb(189, 6, 6);
+    
+} */
+#main_div{
+ background-color: rgba(3, 0, 1, 0.608);
+ flex: auto;
+}

@@ -1,10 +1,16 @@
 import React from 'react'
+ import './Navbar.css';
 
+const style = {
+    main_div : {
+        color: "black"
+    }
+}
 export default function Navbar(props) {
     return (
-        <div>
-            <nav className="navbar navbar-expand-lg bg-body-tertiary bg-red ">
-                <div className="container-fluid">
+        <div id='main_div'>
+            <nav className="navbar navbar-expand-lg ">
+                <div className="container-fluid " >
                     <a className="navbar-brand" href="#">{props.text}</a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
@@ -15,19 +21,19 @@ export default function Navbar(props) {
                                 <a className="nav-link active" aria-current="page" href="#">Home</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">Features</a>
+                                <a className="nav-link" href="#">About Me</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">Pricing</a>
+                                <a className="nav-link" href="#">Projects</a>
                             </li>
                             <li className="nav-item dropdown">
                                 <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Dropdown link
+                                    Music
                                 </a>
                                 <ul className="dropdown-menu">
-                                    <li><a className="dropdown-item" href="#">Action</a></li>
-                                    <li><a className="dropdown-item" href="#">Another action</a></li>
-                                    <li><a className="dropdown-item" href="#">Something else here</a></li>
+                                    <li><a className="dropdown-item" href="#">Vocals</a></li>
+                                    <li><a className="dropdown-item" href="#">Melody</a></li>
+                                    <li><a className="dropdown-item" href="#">Lyrics</a></li>
                                 </ul>
                             </li>
                         </ul>

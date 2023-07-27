@@ -1,13 +1,13 @@
 import React from 'react'
 import Navbar from '../../components/Navbar/Navbar.js'
-
+import SliderIntroduction from '../../components/Introduction/SiderIntroduction.js'
 export default function HomeComponent() {
   return (
     <div>
-        
-        
-
-        <Navbar/>
+         <Navbar />
+         <SliderIntroduction/>
+         
+         
     </div>
   )
 }
